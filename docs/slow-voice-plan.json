@@ -1,0 +1,65 @@
+{
+  "provider": "ElevenLabs",
+  "model": "eleven_multilingual_v2",
+  "configured": true,
+  "clipCount": 7,
+  "characters": 169,
+  "entries": [
+    {
+      "text": "Find the key.",
+      "challenges": [
+        "woods-05"
+      ],
+      "spokenText": "Find <break time=\"0.3s\" /> the <break time=\"0.3s\" /> key.",
+      "id": "67f7cbddc7c97c811894731d"
+    },
+    {
+      "text": "We need three apples.",
+      "challenges": [
+        "woods-11"
+      ],
+      "spokenText": "We <break time=\"0.3s\" /> need <break time=\"0.3s\" /> three <break time=\"0.3s\" /> apples.",
+      "id": "2699fc7e68d46df5b2649517"
+    },
+    {
+      "text": "The owl is here.",
+      "challenges": [
+        "woods-13"
+      ],
+      "spokenText": "The <break time=\"0.3s\" /> owl <break time=\"0.3s\" /> is <break time=\"0.3s\" /> here.",
+      "id": "2e407628408d646b19a54a27"
+    },
+    {
+      "text": "Put the book on the chair.",
+      "challenges": [
+        "woods-14"
+      ],
+      "spokenText": "Put <break time=\"0.3s\" /> the <break time=\"0.3s\" /> book <break time=\"0.3s\" /> on <break time=\"0.3s\" /> the <break time=\"0.3s\" /> chair.",
+      "id": "42382f277df8ce35d2661c2d"
+    },
+    {
+      "text": "Choose the small blue box.",
+      "challenges": [
+        "woods-22"
+      ],
+      "spokenText": "Choose <break time=\"0.3s\" /> the <break time=\"0.3s\" /> small <break time=\"0.3s\" /> blue <break time=\"0.3s\" /> box.",
+      "id": "09cbd762a6caaf94ae33a41a"
+    },
+    {
+      "text": "The flower is beside the bridge.",
+      "challenges": [
+        "woods-26"
+      ],
+      "spokenText": "The <break time=\"0.3s\" /> flower <break time=\"0.3s\" /> is <break time=\"0.3s\" /> beside <break time=\"0.3s\" /> the <break time=\"0.3s\" /> bridge.",
+      "id": "aa1b2f452b1e7a63725711f1"
+    },
+    {
+      "text": "The friends bring the crystal home.",
+      "challenges": [
+        "woods-32"
+      ],
+      "spokenText": "The <break time=\"0.3s\" /> friends <break time=\"0.3s\" /> bring <break time=\"0.3s\" /> the <break time=\"0.3s\" /> crystal <break time=\"0.3s\" /> home.",
+      "id": "40ccee8f722bf9f8fbf6b8d2"
+    }
+  ]
+}

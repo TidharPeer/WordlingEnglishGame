@@ -1,0 +1,29 @@
+# Independent visual critique, round 5
+
+I compared the actual rendered `docs/art-preview.png` (1440 × 900) directly with the supplied `screenshots/image (10).png` (668 × 374). This is an art comparison: the preview shows a forest backdrop and three companions, **not the full app or a gameplay encounter**. A gameplay browser A/B, including UI, interaction, animation, and responsive layout, remains unavailable from these two images.
+
+## Overall read
+
+The preview has appealing, legible companion faces and a coherent, quiet palette. Its characters are recognizable at a glance; the warm windows and lanterns give the forest a destination. The reference, however, puts the action inside a vivid, inhabited world. Its main platform and tree hollow form a stage, with varied figures, props, and structures embedded in several depth planes. At thumbnail size, the preview reads as three mascots posed in front of scenery; the reference reads as an event underway.
+
+## Biggest visual gaps, in priority order
+
+1. **Composition and focal point.** The preview's path and cottage pull the eye toward the right, while all three companions sit in a row along the lower-left edge. Most of the center is empty trunks and atmospheric shapes. The reference concentrates characters and an actionable place near the middle, framed by a huge tree hollow and a grassy ledge; smaller figures at the edges expand the world. For a first encounter, bring the companions into a central, story-specific clearing around the signpost. Make the sign and the sought object visually related, and reserve the path/cottage as context or a later destination. Keep enough clear space around targets for touch and text.
+
+2. **Value and color hierarchy.** The preview uses closely related dark teal and muted green across canopy, trunks, hills, and ground. Even with the yellow path, the middle-distance play area does not separate sharply from its background. The reference uses bright lime platforms against deep green hollows and small saturated red, blue, yellow, and turquoise accents to point at actors and affordances. Brighten the playable ground and nearby foliage, deepen the space behind it, and assign a few clear accent colors to the clue, character, and changed sign. Preserve the preview's calmer palette as its identity; it needs stronger local contrast more than global saturation.
+
+3. **World construction and texture.** The preview's repeated oval leaves, evenly spaced vertical trunks, simple hill arcs, and repeated grass tufts expose the underlying vector pattern. The reference's irregular branches, cutaway architecture, roots, dangling foliage, tiny flowers, and varied edges make every area feel discovered. Replace the most obvious repetitions with a handful of distinctive landmarks: a knotty trunk framing the encounter, broken sign pieces, roots gripping the path, clustered leaves, and small story props. Vary edge shapes and overlap across foreground, play plane, and distance rather than adding uniform decorative noise.
+
+4. **Character staging and specificity.** The preview's three companions share nearly identical round bodies, dot eyes, smiles, and front-facing posture; color, ears, and accessories do most of the differentiation. The reference's figures have distinct silhouettes, costumes, directions of gaze, and activities. Keep the friendly faces, but give the encounter cast differentiated poses and roles: one character points or reacts to the clue, one investigates the sign, and the fox/object occupies a discoverable spot in the scene. Change scale and overlap so they inhabit the clearing instead of lining up like selectable avatars.
+
+5. **Evidence of action.** The cottage, rune stone, and lanterns are pleasant, but none shows what the player is doing or what a correct word will change. The reference's central grouping suggests a conversation or quest before any UI is read. For the signpost encounter, show an incomplete sign before selection and a visibly restored inscription/light afterward. A few clue-bearing objects and a character reaction would make the art carry the learning action, even in a still capture.
+
+## Useful next visual proof
+
+Render one **actual first-encounter gameplay frame** at the intended game viewport, with the signpost, guide, fox/apple targets, clue, and visible controls in place. Capture its before/after success states, then compare those browser frames beside the reference at equal displayed size. The current art preview can validate illustration direction, but cannot establish whether the real gameplay composition, hit targets, text, or responsive layout meet the same bar.
+
+## Hunt capture addendum
+
+I also compared the newly rendered `docs/hunt-preview.png` directly with the reference. This capture shows the hunt artwork and option placement, but omits Phaser effects and the full React shell, so it still cannot establish a complete gameplay browser A/B. The strongest gap is now clearer: the apple, key, and leaf float as three large, evenly separated answer icons over an open floor, while the moth sits in the upper-left and the `???` sign hangs far above the objects. The reference groups its cast and props on a defined central platform, so the player can read a shared event. Here, the answer targets and the sign have little visual relationship; the cottage and path pull attention away from the task.
+
+Revise this hunt as one staged clearing: move the broken sign close to the guide and the relevant object, anchor the apple and distractors to distinct physical spots (branch, roots, sign base), and give the moth a pointing or reacting pose. Use a brighter patch of ground under that group and a darker backdrop behind it to establish the interaction plane. Then capture the same frame after success with restored sign text and changed light. That will test whether the scene itself communicates the word-finding action.

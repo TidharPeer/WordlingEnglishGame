@@ -1,0 +1,1 @@
+const fs=require('fs');const h=fs.readFileSync('public/progress.html','utf8');const imgs=[...h.matchAll(/src="(\/previews\/[^"]+)"/g)].map(x=>x[1]);const missing=imgs.filter(x=>!fs.existsSync('public'+x));console.log('Progress previews:',imgs.length,'missing:',missing.length);if(missing.length){console.log(missing);process.exitCode=1}

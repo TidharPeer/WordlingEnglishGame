@@ -1,0 +1,313 @@
+{
+  "provider": "ElevenLabs",
+  "model": "eleven_multilingual_v2",
+  "configured": true,
+  "clipCount": 38,
+  "characters": 1374,
+  "entries": [
+    {
+      "text": "Find the apple.",
+      "challenges": [
+        "woods-01"
+      ],
+      "spokenText": "Find the apple.",
+      "id": "b32c8e90c9f076cef6db6bae"
+    },
+    {
+      "text": "Find the fox.",
+      "challenges": [
+        "woods-02"
+      ],
+      "spokenText": "Find the fox.",
+      "id": "10594ce0f99f4866c7356ed9"
+    },
+    {
+      "text": "Hello! I am Puck.",
+      "challenges": [
+        "woods-03"
+      ],
+      "spokenText": "Hello! I am Puck.",
+      "id": "2ecf3a2c83209617d9db656a"
+    },
+    {
+      "text": "Tell Puck about the apple.",
+      "challenges": [
+        "woods-04"
+      ],
+      "spokenText": "Tell Puck about the apple.",
+      "id": "926e1d6d39b37954d7ede57c"
+    },
+    {
+      "text": "Find the key.",
+      "challenges": [
+        "woods-05"
+      ],
+      "spokenText": "Find the key.",
+      "id": "f94db30df9f2355d657fa0dd"
+    },
+    {
+      "text": "The sign needs something you can read. What does it need?",
+      "challenges": [
+        "woods-06"
+      ],
+      "spokenText": "The sign needs something you can read. What does it need?",
+      "id": "1c335cb87553ea8b2193c47f"
+    },
+    {
+      "text": "Find a fruit that is red and round.",
+      "challenges": [
+        "woods-07"
+      ],
+      "spokenText": "Find a fruit that is red and round.",
+      "id": "d9661ad321d70278ecef339d"
+    },
+    {
+      "text": "The note is under the chair. Where should Nettle look?",
+      "challenges": [
+        "woods-08"
+      ],
+      "spokenText": "The note is under the chair. Where should Nettle look?",
+      "id": "ddedece6a194c18dd9732ea2"
+    },
+    {
+      "text": "Tell Nettle about the leaves.",
+      "challenges": [
+        "woods-09"
+      ],
+      "spokenText": "Tell Nettle about the leaves.",
+      "id": "b8bd34ffba10dd044ede2f58"
+    },
+    {
+      "text": "I have the picnic map. Do you need it?",
+      "challenges": [
+        "woods-10"
+      ],
+      "spokenText": "I have the picnic map. Do you need it?",
+      "id": "3130e57c34b11ed6a7cd43b1"
+    },
+    {
+      "text": "Here is the map!",
+      "challenges": [
+        "woods-10"
+      ],
+      "spokenText": "Here is the map!",
+      "id": "39e6cb6c1e1519fdb4e77a38"
+    },
+    {
+      "text": "We need three apples.",
+      "challenges": [
+        "woods-11"
+      ],
+      "spokenText": "We need three apples.",
+      "id": "f800aedab97aac74be62fd74"
+    },
+    {
+      "text": "Put the picnic story in order.",
+      "challenges": [
+        "woods-12"
+      ],
+      "spokenText": "Put the picnic story in order.",
+      "id": "f3b74a1db5d42e477b70ec90"
+    },
+    {
+      "text": "The owl is here.",
+      "challenges": [
+        "woods-13"
+      ],
+      "spokenText": "The owl is here.",
+      "id": "4c35038eee918bf69f6748ca"
+    },
+    {
+      "text": "Put the book on the chair.",
+      "challenges": [
+        "woods-14"
+      ],
+      "spokenText": "Put the book on the chair.",
+      "id": "83e45514db656a644998a47b"
+    },
+    {
+      "text": "Find the animal that can fly.",
+      "challenges": [
+        "woods-15"
+      ],
+      "spokenText": "Find the animal that can fly.",
+      "id": "b0ece272908c59ea33ae0685"
+    },
+    {
+      "text": "Tell Hush what the owl can do.",
+      "challenges": [
+        "woods-16"
+      ],
+      "spokenText": "Tell Hush what the owl can do.",
+      "id": "1d0542d7b99ae4884cc49310"
+    },
+    {
+      "text": "I have a clue, but I speak very softly.",
+      "challenges": [
+        "woods-17"
+      ],
+      "spokenText": "I have a clue, but I speak very softly.",
+      "id": "35f68f63b3eeca1057ddf447"
+    },
+    {
+      "text": "The guardian is helping a friend.",
+      "challenges": [
+        "woods-17"
+      ],
+      "spokenText": "The guardian is helping a friend.",
+      "id": "0a43a358d0285a1332ea8816"
+    },
+    {
+      "text": "Lyra is not lost. She is helping a friend. Why is Lyra away?",
+      "challenges": [
+        "woods-18"
+      ],
+      "spokenText": "Lyra is not lost. She is helping a friend. Why is Lyra away?",
+      "id": "83ae7ae08eea0f0aed7fa5fd"
+    },
+    {
+      "text": "Describe what Tock does every day.",
+      "challenges": [
+        "woods-19"
+      ],
+      "spokenText": "Describe what Tock does every day.",
+      "id": "145fb2543bcdfb4f2d559648"
+    },
+    {
+      "text": "The key is not in the box. It is under the book. Where is the key?",
+      "challenges": [
+        "woods-20"
+      ],
+      "spokenText": "The key is not in the box. It is under the book. Where is the key?",
+      "id": "8028dd9d7530edeb25b61d67"
+    },
+    {
+      "text": "Find something you can sit on.",
+      "challenges": [
+        "woods-21"
+      ],
+      "spokenText": "Find something you can sit on.",
+      "id": "d228c8e75175ec428a51f5d3"
+    },
+    {
+      "text": "Choose the small blue box.",
+      "challenges": [
+        "woods-22"
+      ],
+      "spokenText": "Choose the small blue box.",
+      "id": "fe5ea7f005248bbcfc9ab642"
+    },
+    {
+      "text": "Write the instruction that lights the bridge.",
+      "challenges": [
+        "woods-23"
+      ],
+      "spokenText": "Write the instruction that lights the bridge.",
+      "id": "f70b5d54aced00927a169110"
+    },
+    {
+      "text": "Thank you for fixing the lanterns!",
+      "challenges": [
+        "woods-24"
+      ],
+      "spokenText": "Thank you for fixing the lanterns!",
+      "id": "55e726dbf218c65fd07b8d1c"
+    },
+    {
+      "text": "My friend is behind the gate. I am worried.",
+      "challenges": [
+        "woods-25"
+      ],
+      "spokenText": "My friend is behind the gate. I am worried.",
+      "id": "7bc21fc868834a862906e7c8"
+    },
+    {
+      "text": "The flower is beside the bridge.",
+      "challenges": [
+        "woods-26"
+      ],
+      "spokenText": "The flower is beside the bridge.",
+      "id": "da6dce775ca7f5d173efdb6c"
+    },
+    {
+      "text": "Make a promise to Bramble.",
+      "challenges": [
+        "woods-27"
+      ],
+      "spokenText": "Make a promise to Bramble.",
+      "id": "79fbad8ed4be207068e0a9f1"
+    },
+    {
+      "text": "Find the plant with petals.",
+      "challenges": [
+        "woods-28"
+      ],
+      "spokenText": "Find the plant with petals.",
+      "id": "490bc69beeb1cdd94e0cea88"
+    },
+    {
+      "text": "The gate needs an object with pages. It is not a map. What should you bring?",
+      "challenges": [
+        "woods-29"
+      ],
+      "spokenText": "The gate needs an object with pages. It is not a map. What should you bring?",
+      "id": "a0a60fa0c03ba5016f6de373"
+    },
+    {
+      "text": "Arrange the story of opening the bridge.",
+      "challenges": [
+        "woods-30"
+      ],
+      "spokenText": "Arrange the story of opening the bridge.",
+      "id": "428ef836894c2a3f22c13505"
+    },
+    {
+      "text": "Lyra can leave the gate, but the crystal needs a guardian. She stays beside it. Why does she stay?",
+      "challenges": [
+        "woods-31"
+      ],
+      "spokenText": "Lyra can leave the gate, but the crystal needs a guardian. She stays beside it. Why does she stay?",
+      "id": "08e815e1af039db9732c3da5"
+    },
+    {
+      "text": "The friends bring the crystal home.",
+      "challenges": [
+        "woods-32"
+      ],
+      "spokenText": "The friends bring the crystal home.",
+      "id": "34c8b492ba77a569fc2bb722"
+    },
+    {
+      "text": "Tell Puck where the guardian is.",
+      "challenges": [
+        "woods-33"
+      ],
+      "spokenText": "Tell Puck where the guardian is.",
+      "id": "c8a447a58a8241f7d19cfc08"
+    },
+    {
+      "text": "Someone broke the crystal on purpose.",
+      "challenges": [
+        "woods-34"
+      ],
+      "spokenText": "Someone broke the crystal on purpose.",
+      "id": "a488bf863af1a784b9256748"
+    },
+    {
+      "text": "Find the object that opens the lock on the crystal chest.",
+      "challenges": [
+        "woods-35"
+      ],
+      "spokenText": "Find the object that opens the lock on the crystal chest.",
+      "id": "bbea0850550270ebc1f07598"
+    },
+    {
+      "text": "Restore the final page of your journal.",
+      "challenges": [
+        "woods-36"
+      ],
+      "spokenText": "Restore the final page of your journal.",
+      "id": "7da28002b88584aabc346ac7"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+﻿import puppeteer from 'file:///C:/dev/Golden%20Axe%20Astra/node_modules/puppeteer-core/lib/puppeteer/puppeteer-core.js';
+const browser=await puppeteer.launch({executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe',headless:true,args:['--no-sandbox','--disable-gpu','--disable-dev-shm-usage','--disable-features=Vulkan','--use-gl=angle','--use-angle=swiftshader'],userDataDir:'C:/dev/Wordlings/.puppeteer-preview'});
+const page=await browser.newPage();await page.goto('file:///C:/dev/Wordlings/docs/hunt-preview.html');
+for(const width of [320,375,768,1280]){await page.setViewport({width,height:812});const data=await page.evaluate(()=>{const rect=e=>{const r=e.getBoundingClientRect();return{x:r.x,y:r.y,w:r.width,h:r.height}};return{stage:rect(document.querySelector('.hunt-stage')),targets:[...document.querySelectorAll('.hunt-objects button')].map(rect)}});const overlap=data.targets.some((a,i)=>data.targets.slice(i+1).some(b=>a.x<b.x+b.w&&a.x+a.w>b.x&&a.y<b.y+b.h&&a.y+a.h>b.y));console.log(width,JSON.stringify({...data,overlap}))}
+await browser.close();

@@ -1,0 +1,18 @@
+﻿node_modules/
+dist/
+.npm-cache/
+*.tsbuildinfo
+
+.chrome-preview/
+.edge-preview/
+
+# Local provider credentials
+.env
+.env.*
+!.env.example
+
+# Local rendering caches and original generation working files
+.puppeteer-preview/
+output/
+.tools/
+*.log

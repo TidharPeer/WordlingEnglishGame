@@ -1,0 +1,21 @@
+# First playable encounter critique, round 7
+
+I compared the supplied `screenshots/image (10).png` with `challenge-preview-en-1280x800.png`, `challenge-preview-he-375x812.png`, and `hunt-preview-success.png`, then checked `ChallengeView.tsx`, `WordHuntScene.tsx`, and the hunt and challenge rules in `styles.css`. This is a critique of source-rendered previews: they mock hooks, and the full runtime and test build were unavailable. The captures cannot establish live Phaser behavior, speech, persistence, or end-to-end completion.
+
+## Biggest remaining gap
+
+**The first discovery still lacks a clear cause-and-effect story that a child can read from the picture.** The prompt says “Find the apple,” and the apple silhouette is recognizable, but the moth points toward the `???` sign, while the gold key sits in the center below it. Those cues make the sign and key look like the objective. On success, the sign suddenly spells `APPLE` and glows, yet the apple and moth do not visibly move or use the found object. A child can probably answer the vocabulary question; the scene gives little reason why choosing an apple repairs this sign.
+
+The reference communicates a small event immediately through a crowded, inhabited ledge: characters share space, face one another, and appear to have roles. The current stage is attractive and better grounded than earlier versions, with a clearing, shadows, and a distinctive sign, but the three objects remain an evenly spaced answer row. The cream card and generous margins make the learning task legible; they also keep the playable world feeling like an illustration inside a worksheet. The next pass should make the apple part of the sign's problem or the moth's action, then show a visible reaction when it is chosen. One specific prop interaction and one changed character pose would matter more than more foliage or glow.
+
+## Concrete defects and comprehension friction
+
+- In the actual 375 px challenge card, the apple and key **button rectangles overlap by about 6 px**; at 320 px they overlap by about 7 px. The visible art is separate, but adjacent invisible tap areas are ambiguous at their boundary. The standalone hunt inspection reports no overlap because its stage is wider. Re-space the targets or reduce the hit boxes within the card, then inspect the rendered card at both widths.
+- The mobile audio control is **35 × 35 px** in the measured challenge preview. It is an important way to hear the English instruction, especially for an early reader, and is much smaller than the 44 px help button. The card's Hebrew guide text is improved and readable, but the English prompt remains the dominant instruction; the audio affordance should be equally easy to hit.
+- The Hebrew 375 × 812 capture ends its green quest background around y=696 and leaves roughly 116 px of the light page background below. The source uses a `76vh` minimum for `.quest-screen`, which is consistent with the short backdrop in this isolated preview. Verify the treatment in the full shell and let the quest backdrop fill the viewport if that strip remains visible.
+
+## Mobile touch assessment
+
+`scripts/inspect-hunt-preview.mjs` measured the **standalone** hunt at 320 and 375 px: target rectangles were 78 × 78 and 92 × 92 px, respectively, with no overlap. Those are credible individual target sizes. It does **not** settle the first encounter, because `ChallengeView` places the hunt in a padded card. Measuring the supplied Hebrew challenge HTML in Chrome gives a 262 px stage at a 320 px viewport and a 317 px stage at 375 px. The first two target rectangles overlap at both sizes, as noted above. The object silhouettes are clear enough, but the target spacing needs a card-level check. This geometry is evidence from the static preview, not a runtime tap test.
+
+The desktop English preview has a readable hierarchy and ample room for the scene. The Hebrew mobile preview preserves the prompt and all three options without clipping. The success artwork gives the sign a satisfying warm reveal, though its effect is more symbolic than a visible action in the world. The interaction and feedback still need verification in the full game when a runnable build is available.

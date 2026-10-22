@@ -1,0 +1,7 @@
+[
+  { "id": "tap", "text": "A single soft wooden button tap with a tiny warm fairy sparkle, gentle woodland storybook game interface, clean isolated sound, no voice, no harsh attack.", "duration_seconds": 0.5, "loop": false },
+  { "id": "success", "text": "A short warm rising three note marimba and delicate bell flourish, a friendly woodland creature celebrates a correct answer, soft magical sparkle, no voice, gentle and reassuring.", "duration_seconds": 1.5, "loop": false },
+  { "id": "retry", "text": "A brief soft curious wooden pluck with a little leaf rustle, encouraging another try in a cozy woodland learning game, warm and kind, no buzzer, no voice.", "duration_seconds": 1, "loop": false },
+  { "id": "reward", "text": "A joyful gentle storybook reward flourish, warm celesta and wooden chimes with delicate magical leaf sparkles, a woodland treasure opening, no voice, no loud percussion.", "duration_seconds": 3, "loop": false },
+  { "id": "woodland", "text": "A seamless quiet enchanted woodland ambience for a cozy storybook learning game. Soft wind in leaves, distant gentle birds, a delicate flowing stream, very sparse warm bell-like musical tones. Calm and spacious, no speech, no sudden sounds, no prominent rhythm.", "duration_seconds": 30, "loop": true }
+]

@@ -1,0 +1,236 @@
+{
+  "passed": true,
+  "offline": true,
+  "clips": 38,
+  "errors": [],
+  "results": [
+    {
+      "text": "Find the apple.",
+      "url": "/audio/voices/b32c8e90c9f076cef6db6bae.mp3",
+      "duration": 1.0681041666666666,
+      "offlinePlayback": true
+    },
+    {
+      "text": "Find the fox.",
+      "url": "/audio/voices/10594ce0f99f4866c7356ed9.mp3",
+      "duration": 0.9287916666666667,
+      "offlinePlayback": true
+    },
+    {
+      "text": "Hello! I am Puck.",
+      "url": "/audio/voices/2ecf3a2c83209617d9db656a.mp3",
+      "duration": 1.3003125,
+      "offlinePlayback": true
+    },
+    {
+      "text": "Tell Puck about the apple.",
+      "url": "/audio/voices/926e1d6d39b37954d7ede57c.mp3",
+      "duration": 1.3931875,
+      "offlinePlayback": true
+    },
+    {
+      "text": "Find the key.",
+      "url": "/audio/voices/f94db30df9f2355d657fa0dd.mp3",
+      "duration": 1.0216666666666667,
+      "offlinePlayback": true
+    },
+    {
+      "text": "The sign needs something you can read. What does it need?",
+      "url": "/audio/voices/1c335cb87553ea8b2193c47f.mp3",
+      "duration": 2.8792708333333334,
+      "offlinePlayback": true
+    },
+    {
+      "text": "Find a fruit that is red and round.",
+      "url": "/audio/voices/d9661ad321d70278ecef339d.mp3",
+      "duration": 1.8111458333333332,
+      "offlinePlayback": true
+    },
+    {
+      "text": "The note is under the chair. Where should Nettle look?",
+      "url": "/audio/voices/ddedece6a194c18dd9732ea2.mp3",
+      "duration": 2.5541875,
+      "offlinePlayback": true
+    },
+    {
+      "text": "Tell Nettle about the leaves.",
+      "url": "/audio/voices/b8bd34ffba10dd044ede2f58.mp3",
+      "duration": 1.5325,
+      "offlinePlayback": true
+    },
+    {
+      "text": "I have the picnic map. Do you need it?",
+      "url": "/audio/voices/3130e57c34b11ed6a7cd43b1.mp3",
+      "duration": 1.9040208333333333,
+      "offlinePlayback": true
+    },
+    {
+      "text": "Here is the map!",
+      "url": "/audio/voices/39e6cb6c1e1519fdb4e77a38.mp3",
+      "duration": 0.9752291666666667,
+      "offlinePlayback": true
+    },
+    {
+      "text": "We need three apples.",
+      "url": "/audio/voices/f800aedab97aac74be62fd74.mp3",
+      "duration": 1.3003125,
+      "offlinePlayback": true
+    },
+    {
+      "text": "Put the picnic story in order.",
+      "url": "/audio/voices/f3b74a1db5d42e477b70ec90.mp3",
+      "duration": 1.4860625,
+      "offlinePlayback": true
+    },
+    {
+      "text": "The owl is here.",
+      "url": "/audio/voices/4c35038eee918bf69f6748ca.mp3",
+      "duration": 1.3003125,
+      "offlinePlayback": true
+    },
+    {
+      "text": "Put the book on the chair.",
+      "url": "/audio/voices/83e45514db656a644998a47b.mp3",
+      "duration": 1.34675,
+      "offlinePlayback": true
+    },
+    {
+      "text": "Find the animal that can fly.",
+      "url": "/audio/voices/b0ece272908c59ea33ae0685.mp3",
+      "duration": 1.5789375,
+      "offlinePlayback": true
+    },
+    {
+      "text": "Tell Hush what the owl can do.",
+      "url": "/audio/voices/1d0542d7b99ae4884cc49310.mp3",
+      "duration": 1.6718333333333333,
+      "offlinePlayback": true
+    },
+    {
+      "text": "I have a clue, but I speak very softly.",
+      "url": "/audio/voices/35f68f63b3eeca1057ddf447.mp3",
+      "duration": 2.3684166666666666,
+      "offlinePlayback": true
+    },
+    {
+      "text": "The guardian is helping a friend.",
+      "url": "/audio/voices/0a43a358d0285a1332ea8816.mp3",
+      "duration": 1.6718333333333333,
+      "offlinePlayback": true
+    },
+    {
+      "text": "Lyra is not lost. She is helping a friend. Why is Lyra away?",
+      "url": "/audio/voices/83ae7ae08eea0f0aed7fa5fd.mp3",
+      "duration": 3.575854166666667,
+      "offlinePlayback": true
+    },
+    {
+      "text": "Describe what Tock does every day.",
+      "url": "/audio/voices/145fb2543bcdfb4f2d559648.mp3",
+      "duration": 1.8111458333333332,
+      "offlinePlayback": true
+    },
+    {
+      "text": "The key is not in the box. It is under the book. Where is the key?",
+      "url": "/audio/voices/8028dd9d7530edeb25b61d67.mp3",
+      "duration": 3.3901041666666667,
+      "offlinePlayback": true
+    },
+    {
+      "text": "Find something you can sit on.",
+      "url": "/audio/voices/d228c8e75175ec428a51f5d3.mp3",
+      "duration": 1.6253958333333334,
+      "offlinePlayback": true
+    },
+    {
+      "text": "Choose the small blue box.",
+      "url": "/audio/voices/fe5ea7f005248bbcfc9ab642.mp3",
+      "duration": 1.6253958333333334,
+      "offlinePlayback": true
+    },
+    {
+      "text": "Write the instruction that lights the bridge.",
+      "url": "/audio/voices/f70b5d54aced00927a169110.mp3",
+      "duration": 2.0897916666666667,
+      "offlinePlayback": true
+    },
+    {
+      "text": "Thank you for fixing the lanterns!",
+      "url": "/audio/voices/55e726dbf218c65fd07b8d1c.mp3",
+      "duration": 1.6253958333333334,
+      "offlinePlayback": true
+    },
+    {
+      "text": "My friend is behind the gate. I am worried.",
+      "url": "/audio/voices/7bc21fc868834a862906e7c8.mp3",
+      "duration": 2.2291041666666667,
+      "offlinePlayback": true
+    },
+    {
+      "text": "The flower is beside the bridge.",
+      "url": "/audio/voices/da6dce775ca7f5d173efdb6c.mp3",
+      "duration": 1.8575833333333334,
+      "offlinePlayback": true
+    },
+    {
+      "text": "Make a promise to Bramble.",
+      "url": "/audio/voices/79fbad8ed4be207068e0a9f1.mp3",
+      "duration": 1.34675,
+      "offlinePlayback": true
+    },
+    {
+      "text": "Find the plant with petals.",
+      "url": "/audio/voices/490bc69beeb1cdd94e0cea88.mp3",
+      "duration": 1.439625,
+      "offlinePlayback": true
+    },
+    {
+      "text": "The gate needs an object with pages. It is not a map. What should you bring?",
+      "url": "/audio/voices/a0a60fa0c03ba5016f6de373.mp3",
+      "duration": 4.179583333333333,
+      "offlinePlayback": true
+    },
+    {
+      "text": "Arrange the story of opening the bridge.",
+      "url": "/audio/voices/428ef836894c2a3f22c13505.mp3",
+      "duration": 2.136229166666667,
+      "offlinePlayback": true
+    },
+    {
+      "text": "Lyra can leave the gate, but the crystal needs a guardian. She stays beside it. Why does she stay?",
+      "url": "/audio/voices/08e815e1af039db9732c3da5.mp3",
+      "duration": 6.0371875,
+      "offlinePlayback": true
+    },
+    {
+      "text": "The friends bring the crystal home.",
+      "url": "/audio/voices/34c8b492ba77a569fc2bb722.mp3",
+      "duration": 1.9504583333333334,
+      "offlinePlayback": true
+    },
+    {
+      "text": "Tell Puck where the guardian is.",
+      "url": "/audio/voices/c8a447a58a8241f7d19cfc08.mp3",
+      "duration": 1.7182708333333334,
+      "offlinePlayback": true
+    },
+    {
+      "text": "Someone broke the crystal on purpose.",
+      "url": "/audio/voices/a488bf863af1a784b9256748.mp3",
+      "duration": 1.8575833333333334,
+      "offlinePlayback": true
+    },
+    {
+      "text": "Find the object that opens the lock on the crystal chest.",
+      "url": "/audio/voices/bbea0850550270ebc1f07598.mp3",
+      "duration": 3.0650208333333335,
+      "offlinePlayback": true
+    },
+    {
+      "text": "Restore the final page of your journal.",
+      "url": "/audio/voices/7da28002b88584aabc346ac7.mp3",
+      "duration": 1.8575833333333334,
+      "offlinePlayback": true
+    }
+  ]
+}

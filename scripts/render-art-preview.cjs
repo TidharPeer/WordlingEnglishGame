@@ -1,0 +1,12 @@
+﻿const fs=require('node:fs'),vm=require('node:vm');
+const ts=require('C:/Users/Tidha/AppData/Local/Programs/Microsoft VS Code/6d62b1d5da/resources/app/extensions/node_modules/typescript/lib/typescript.js');
+const src=fs.readFileSync('src/Art.tsx','utf8');
+const code=ts.transpileModule(src,{compilerOptions:{module:ts.ModuleKind.CommonJS,jsx:ts.JsxEmit.ReactJSX,target:ts.ScriptTarget.ES2022}}).outputText;
+const jsx=(type,props)=>({type,props:props||{}}),Fragment=Symbol('Fragment');
+const moduleExports={};vm.runInNewContext(code,{exports:moduleExports,require(name){if(name==='react')return {useId:()=> 'artpreview'};if(name==='react/jsx-runtime')return {jsx,jsxs:jsx,Fragment};if(name.endsWith('.css'))return {};throw Error(name)}}, {filename:'Art.js'});
+const esc=x=>String(x).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;');
+function render(node){if(node==null||typeof node==='boolean')return '';if(Array.isArray(node))return node.map(render).join('');if(typeof node!=='object')return esc(node);let {type,props}=node;if(type===Fragment)return render(props.children);if(typeof type==='function')return render(type(props));const attr=Object.entries(props).filter(([k,v])=>k!=='children'&&k!=='key'&&k!=='ref'&&k!=='aria-hidden'||false).map(([k,v])=>{if(k==='children'||k==='key'||k==='ref'||k.startsWith('on')||v==null)return '';if(k==='className')k='class';else if(k==='viewBox'||k==='preserveAspectRatio'){}else if(k.startsWith('aria-')){}else k=k.replace(/[A-Z]/g,x=>'-'+x.toLowerCase());if(k==='style'&&typeof v==='object')v=Object.entries(v).map(([a,b])=>a.replace(/[A-Z]/g,x=>'-'+x.toLowerCase())+':'+b).join(';');return ' '+k+'="'+esc(v)+'"'}).join('');return '<'+type+(type==='svg'?' xmlns="http://www.w3.org/2000/svg"':'')+attr+'>'+render(props.children)+'</'+type+'>'}
+const forest=render(jsx(moduleExports.ForestBackdrop,{}));const companions=['moss','pip','luma'].map((kind,i)=>render(jsx(moduleExports.Creature,{kind,size:[180,225,160][i]}))).join('');
+fs.writeFileSync('docs/art-preview.html',`<!doctype html><html><meta charset="utf-8"><style>*{box-sizing:border-box}body{margin:0;background:#173b36}.scene{position:relative;width:1440px;height:900px;overflow:hidden}.scene>svg{position:absolute;inset:0;width:100%;height:100%}.companions{position:absolute;left:60px;bottom:35px;display:flex;align-items:end;filter:drop-shadow(0 14px 12px #102e2a99)}</style><div class="scene">${forest}<div class="companions">${companions}</div></div></html>`);
+console.log('Rendered authored forest and creatures to docs/art-preview.html');
+

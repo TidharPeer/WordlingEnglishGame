@@ -1,0 +1,34 @@
+## nettle
+
+Use reference for painterly texture and lighting only. Create NETTLE, an original woodland fox cartographer NPC for ages 8–12 adventure game. Distinct from the tiny quadruped reference: tall slender upright fox, russet fur with silver cheek tufts, long elegant cream-tipped tail, round brass spectacles perched above bright thoughtful eyes, moss green short explorer coat, leather map tube across back, one paw holding a loosely rolled parchment with NO writing. Wry welcoming smile and confident open other paw. Full body three-quarter standing pose. Premium hand-painted storybook rendering, warm golden rim light, textured fur, sophisticated organic silhouette. Entire ears, paws and tail inside canvas with at least 8 percent transparent margin. One character only, no ground or backdrop, no labels, no lettering. Transparent background square game sprite.
+
+## hush
+
+Create HUSH, an original wise woodland owl NPC sprite for a premium painted fantasy game for ages 8–12, matching supplied fox reference's painterly texture, warm light and quality. Full body small round tawny brown owl, cream heart-shaped facial disc, amber eyes, asymmetrical raised expressive brow, small brass monocle, a deep indigo scarf with tiny golden stitch stars, layered detailed wing feathers, one wing lifted as if sharing a secret, tidy short talons. No book or backdrop. Warm welcoming curious expression, no babyish accessories. Three-quarter view, entire figure with safe margins on all sides, clear silhouette readable at 130px. Isolated genuine transparent background, no text, no scene, no ground. Square game asset.
+
+## bramble
+
+Create BRAMBLE, original friendly woodland bridge-guardian dragon full body sprite. Match supplied reference's premium painterly game illustration, soft tactile textures and warm golden rim light, but entirely different species. Sage and deep teal rounded dragon, cream belly, short ivory antler-like horns, small leaf-shaped folded wings, broad gentle muzzle, expressive amber eyes, thick curved tail with fern tip. Sitting comfortably with one palm raised in a friendly greeting, a small patchwork moss-green waistcoat with acorn buttons. Charming wise gentle giant for ages 8–12, no teeth bared, no weapons or flames. Clear bold silhouette readable at130px. Entire body inside square frame with safe margins. Genuine transparent background, no ground, scene, text or props.
+
+## puck
+
+Original PUCK, a whimsical forest moth messenger full body game sprite, matching reference quality of painterly textures and warm golden light. Distinct moth species: tiny fuzzy cream and honey gold body, broad scalloped amber wings with dark teal eye spots and delicate gold veins, fluffy chest ruff, two curling feather antennae, curious dark eyes, tiny leather messenger satchel, small expressive legs. Hovering three-quarter pose with both wings readable, friendly mischievous smile. Elegant natural insect wings, not fairy or humanoid. Premium adventure storybook illustration ages8–12. Entire creature inside square with safe transparent margins. No text, no scenery, no ground or floating particles outside silhouette. Genuine transparent background.
+
+## tock
+
+Create TOCK, original whimsical woodland clockkeeper NPC, full body painted game sprite for ages8–12. Premium storybook brush textures, warm golden rim lighting, richly shaded materials. A small friendly elderly humanlike tinkerer with round nose, kind lively brown eyes, fluffy silver moustache, copper goggles on a plum felt bowler hat with tiny brass clock badge, teal waistcoat over cream rolled sleeves, brown trousers, sturdy boots, belt with little brass gears. One hand holds a small winding key, other rests on hip, curious amused expression. Clear distinctive short stout silhouette, no resemblance to existing franchise characters. Whole body in frame with generous transparent margin. Isolated transparent background, no backdrop, no text, no ground. Square character sprite.
+
+## lyra
+
+Original LYRA, forest guardian scholar NPC, full-body portrait sprite for sophisticated cozy adventure ages8–12. Friendly adult woodland elf with warm olive skin, thoughtful dark eyes, silver-white short wavy hair, long pointed ears, elegant indigo and slate blue layered travel robes with leaf embroidery, turquoise luminous crystal pendant and small matching forehead jewel, sturdy soft boots. Gentle knowing smile, one open hand extended and other holding a closed cream-bound journal. No weapons. Hand-painted storybook brush texture, rich softly shaded materials, warm golden rim light and subtle cyan magic. Clear slender silhouette, full body and ears safely within square frame. Transparent background, no ground, no scene, no text or writing. High quality original indie game character, matching warm painted woodland cast.
+
+## apple
+
+One RED APPLE inventory sprite for premium hand-painted woodland English-learning adventure. Unambiguously red and round ripe apple with subtle natural golden flecks, short brown stalk and one green leaf. Rich red skin, warm highlights, soft dimensional painterly shading and restrained storybook brush texture. Recognizable simple shape readable at 60px, avoid overdecorating or changing color. Centered whole object, ample transparent margins. Genuine transparent background, no ground, text, frame, face or additional objects. Square asset.
+
+## mushroom
+
+One woodland MUSHROOM item sprite for premium hand-painted fantasy adventure, a sturdy short ivory stem and broad warm red-orange cap with a few cream speckles. Three-quarter view with subtly visible underside gills, rich painterly dimensional brush shading, golden rim lighting, elegant simple natural silhouette readable at60px. Whole mushroom centered with generous transparent margin, no grass or ground, no face, no text, no scene or extra objects. Genuine transparent background. Square inventory asset.
+## Lyra refinement after visual critique
+
+Use supplied clockkeeper reference as exact style and proportion reference: expressive large head, compact four-head-tall body, detailed painterly fabric and warm rim light, whimsical sophisticated storybook game NPC. Create a DIFFERENT character LYRA, adult forest guardian elf with olive skin, large kind dark eyes, short silver-white wavy hair, long pointed ears, a turquoise forehead jewel, indigo-blue travel robe with cream sleeves and restrained gold leaf embroidery, crystal pendant. Confident gentle knowing smile, one hand holding small closed book, other palm open. Broad readable cloak silhouette, compact body and large expressive face readable at100px. Not realistic human anatomy, not fashion illustration, not toddler. Full body sprite centered on genuine transparent background. Entire hair, ears, shoes fit with clear safe margin. No text, ground, scene or extra characters.
